@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrela cadente⭐</title>
+    <style>
+        body {
+            background: black;
+        }
+        .estrela{
+            width: 20px;
+            height: 20px;
+            background-color: gold;
+            border: 3px solid aliceblue ;
+            border-radius: 50%;
+            box-shadow: 0 0 20px yellow;
+            animation: cair 3s linear infinite;
+        }
+
+        @keyframes cair {
+            0%{transform: translateY(0);}
+            100%{transform: translateY(300px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="estrela"></div>
+</body>
+</html>
